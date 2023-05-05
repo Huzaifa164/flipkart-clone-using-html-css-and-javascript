@@ -7,10 +7,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #f1f3f6;
 }
 
 :root {
     --bg-primary: #2874f0;
+}
+
+.container {
+    margin: 0 8px;
 }
 
 /* header */
@@ -98,4 +103,148 @@ header .logo img {
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
+
+/* section 1 */
+.section-1 {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.section-1-item {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-item img {
+    width: 64px;
+}
+
+/* section 2 */
+
+.section-2-container {
+    height: 280px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/0735712fe84c602d.jpg?q=50');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    background-position: center;
+}
+
+/* section 3 */
+.section-3-container {
+    height: 122px;
+    background-color: white;
+    margin-top: 8px;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/2848/246/image/d56a3ed6d200038a.jpg?q=50');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+/* section 4 */
+.section-4 {
+    height: 362px;
+    background-color: white;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-4-left {
+    width: 230px;
+    height: 100%;
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/1e483f8045ec13a8.jpg?q=90');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 132px;
+    box-sizing: border-box;
+}
+
+.section-4-left button {
+    background-color: var(--bg-primary);
+    margin-top: 24px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.section-4-right {
+    width: calc(100% - 230px);
+    height: 100%;
+}
+
+.item-list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    max-width: 200px;
+    margin: 0 20px;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.item-price {
+    font-size: 16px;
+    color: #388e3c;
+    margin-top: 12px;
+}
+
+.explore {
+    opacity: 0.6;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* section 5 */
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.section-5 img {
+    width: 33%;
+}
+
+footer {
+    height: 56px;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
 }
